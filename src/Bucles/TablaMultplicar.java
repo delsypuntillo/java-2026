@@ -1,0 +1,14 @@
+package Bucles;
+
+public class TablaMultplicar {
+    public static void main(String[] args) {
+        int numero = 1;
+        while (numero <= 10){
+            System.out.println("5 x" + numero + "="+ (5 * numero));
+
+            numero++;
+
+
+        }
+    }
+}

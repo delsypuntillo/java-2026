@@ -23,9 +23,14 @@ public class Arreglos {
         //arreglo con inicializacion
         int[] notas = {10, 18, 13, 20, 16, 18, 14};
         System.out.println(Arrays.toString(notas));
+        for (int iterador = 0; iterador <= notas.length; iterador++) {
+            System.out.println(notas[iterador]);
+        }
         //arreglo de frutas
         String[] frutas = {"manzana", "uva", "fresa", "platanos", "pera", "pacay"};
         System.out.println(Arrays.toString(frutas));
+
+
 
 
     }
